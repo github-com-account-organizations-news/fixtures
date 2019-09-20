@@ -39,7 +39,7 @@
   "dependencies": {
     "json-diff": "^0.5.3",
     "lodash": "^4.17.11",
-    "nock": "^11.1.0",
+    "nock": "^11.3.5",
     "url-template": "^2.0.8"
   },
   "devDependencies": {
