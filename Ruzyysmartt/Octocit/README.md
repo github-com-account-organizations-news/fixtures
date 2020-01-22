@@ -1,12 +1,14 @@
-# fixtures
+# fixtures_Octokit_ruzyysmartt_#README md
+
+https://github.com/https-github-com-ruzyysmartt/fixtures.git
 
 > Fixtures for all the octokittens
 
-[![Build Status](https://travis-ci.org/octokit/fixtures.svg?branch=master)](https://travis-ci.org/octokit/fixtures)
-[![Coverage Status](https://coveralls.io/repos/octokit/fixtures/badge.svg?branch=master)](https://coveralls.io/github/octokit/fixtures?branch=master)
+[![Build Status](https://travis-ci.org/ruzyysmartt/octokit/fixtures.svg?branch=master)](https://travis-ci.org/ruzyysmartt/octokit/fixtures)
+[![Coverage Status](https://coveralls.io/repos/ruzyysmartt/octokit/fixtures/badge.svg?branch=master)](https://coveralls.io/github/octokit/fixtures?branch=master)
 [![Greenkeeper badge](https://badges.greenkeeper.io/octokit/fixtures.svg)](https://greenkeeper.io/)
 
-Records requests/responses against the [GitHub REST API](https://developer.github.com/v3/)
+Records requests/responses against the [GitHub REST API](https://developer.github.com/v3/ruzyysmartt) 
 and stores them as JSON fixtures.
 
 - [Usage](#usage)
@@ -19,7 +21,7 @@ and stores them as JSON fixtures.
 
 ## Usage
 
-Currently requires node 8+
+Currently requires node 8+ json
 
 ### fixtures.mock(scenario)
 
@@ -29,16 +31,16 @@ is any folder in [`scenarios/`](scenarios/). `scenario name` is any filename in
 the host name folders without the `.js` extension.
 
 ```js
-const https = require("https");
+const https = require("https");https://github.com/https-github-com-ruzyysmartt/fixtures.git
 const fixtures = require("@octokit/fixtures");
 
-fixtures.mock("api.github.com/get-repository");
+fixtures.mock("api.github.com/ruzyysmartt/get-repository");
 https
   .request(
     {
       method: "GET",
       hostname: "api.github.com",
-      path: "/repos/octokit-fixture-org/hello-world",
+      path: "/repos/octokit-fixture-org/ruzyysmartt/hello-world",
       headers: {
         accept: "application/vnd.github.v3+json"
       }
@@ -103,7 +105,7 @@ pending mock is
 
 ### fixtures.get(scenario)
 
-`fixtures.get(scenario)` will return the JSON object which is used by [nock](https://www.npmjs.com/package/nock)
+`fixtures.get(scenario)` will return the JSON object which is used by [nock](https://www.npmjs.com/ruzyysmartt/package/nock)
 to mock the API routes. You can use that method to convert the JSON to another
 format, for example.
 
